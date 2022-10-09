@@ -23,6 +23,8 @@ struct ContentView: View {
                     VStack(spacing: 0){
                         FeaturedTabView()
                             .padding(.vertical,20)
+                            .frame(height: 300)
+                        
                                                 
                         FooterView()
                             .padding(.horizontal)
